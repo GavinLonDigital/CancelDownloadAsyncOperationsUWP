@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="CancelDownloadAsyncOperationsUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CancelDownloadAsyncOperationsUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnCancelDownload" Content="Cancel Download" Margin="169,157,0,0" VerticalAlignment="Top" Height="94" Width="159" Click="btnCancelDownload_Click"/>
+        <Button x:Name="btnDownloadContent" Content="Download Content" Margin="169,306,0,0" VerticalAlignment="Top" Height="84" Width="159" Click="btnDownloadContent_Click"/>
+        <ListView x:Name="lvwOutput" Margin="484,0,0,0"/>
+
+    </Grid>
+</Page>
